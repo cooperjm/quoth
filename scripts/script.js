@@ -7,7 +7,6 @@ function openURL(url){
 }
 
 function getQuote() {
-  //$('.qBox').toggleClass('.slide-in-blurred-top');
   $('.qBox').toggle('fade', 400);
 
     $.ajax({
